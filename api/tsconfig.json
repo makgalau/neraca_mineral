@@ -1,0 +1,30 @@
+{
+  "extends":"@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "outDir": "dist",
+      // "moduleResolution": "node",
+      "declaration": true,
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "noUnusedLocals": false,
+      "esModuleInterop": true,
+      // "skipLibCheck": true
+      "plugins": [
+        {
+          "name": "next"
+        }
+      ],
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+  },
+  "include": [
+      "./src/"
+  ],
+  "exclude": [
+    "./src/**/*.spec.ts"
+  ],
+
+}

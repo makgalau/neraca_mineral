@@ -1,0 +1,402 @@
+[
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0001","Besi Laterit Mengandung Sari","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Mengandung Sari","Margatiga","Lampung Timur","Lampung","Survei Tinjau","","1956562","157503.241","0","0","0","0","0","0","0","0","0","0","Kadar Fe 11 0 12 %, laterit, batuan basalt","-5.173","105.502","Kisman, 2005","Pemerintah","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0002","Besi Laterit Negeri Katon","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Negeri Katon","Sekampung Udik","Lampung Timur","Lampung","Survei Tinjau","","456875","137519.375","0","0","0","0","0","0","0","0","0","0","Kadar Fe 43 % Co","-5.257","105.528","Kisman, 2006","Pemerintah","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0003","Besi Laterit Gunung Tiga, Sukadana","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Gunung Tiga, Sukadana","Sukadana","Lampung Timur","Lampung","Prospeksi","","0","0","8000","5819.2","0","0","0","0","0","0","0","0","Berupa hematit Fe oksida 72,74%","-5.072","105.548","Van Bemmelen, R.W., 1949","Penelitian","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0004","Besi Laterit Ciater","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Ciater","Ciater","Subang","Jawa Barat","Prospeksi","","0","0","500000","225000","0","0","0","0","0","0","0","0","Fe 30060%","-6.751","107.627","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0005","Besi Laterit Gunung Kukusan, Sungai Duwa Kayuangin","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Gunung Kukusan, Sungai Duwa Kayuangin","Simpang Empat","Tanah Bumbu","Kalimantan Selatan","Eksplorasi","","0","0","0","0","50972000","16412984","0","0","0","0","0","0","Laterit dengan kadar rata-rata Fe 46%,","-3.263","115.923","Wedextro, 1957","Penelitian","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0006","Besi Laterit Pulau Danawan","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Danawan","Simpang Empat","Tanah Bumbu","Kalimantan Selatan","Eksplorasi","","0","0","0","0","7500000","3450000","0","0","0","0","0","0","Laterit dengan kadar Fe 46%","-3.353","116.067","Wedextro, 1957","Penelitian","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0007","Besi Laterit Pulau Sebuku","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Sebuku","Pulau Sebuku","Kotabaru","Kalimantan Selatan","Operasi Produksi","IUP (Izin Usaha Pertambangan)","0","0","14031589","5098114","48371525","17797139","177256589","69724502","90411391","41770720","0","0","Laterit dengan kadar Fe 35,58% s.d. 46,3%","-3.371","116.413","PT SILO, Laporan RKAB Tahun 2022","Swasta/BUMN","Ade Kadarusman","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0008","Besi Laterit Pulau Suwangi","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Suwangi","Batu Licin","Tanah Bumbu","Kalimantan Selatan","Eksplorasi Rinci","","0","0","0","0","250000","115000","0","0","0","0","0","0","Laterit dengan kadar Fe 46%","-3.438","116.025","Van Bemmelen, R.W., 1949, The Geology of Indonesia, vol. II, p.205-217","Penelitian","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0010","Besi Laterit Desa Harapan","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Desa Harapan","Malili","Luwu Timur","Sulawesi Selatan","Prospeksi","","0","0","36697.3","10313.77617","0","0","0","0","0","0","0","0","Kadar Fe 40,15 %","-2.772","121.108","Kanwil Pertambambangan Sulsel, 1997","Pemerintah","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0011","Besi Laterit Larona","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Larona","Malili","Luwu Timur","Sulawesi Selatan","Prospeksi","","0","0","370000000","181300000","0","0","0","0","0","0","0","0","Besi Laterit dengan kadar Fe 49%","-2.76","121.294","Van Bemmelen, R.W., 1949, The Geology of Indonesia, vol. II, p.205-217","Penelitian ","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0012","Besi Laterit Lingkona","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Lingkona","Towuti","Luwu Timur","Sulawesi Selatan","Eksplorasi","","0","0","0","0","0","0","1500000","514500","0","0","0","0","Berasosiasi dengan Ni kadar rendah dengan kadar Fe 49%","-2.621","121.724","Van Bemmelen, R.W., 1949, The Geology of Indonesia, vol. II, p.205-217","Penelitian","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0013","Besi Laterit Lingkobale","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Lingkobale","Routa","Konawe","Sulawesi Tenggara","Eksplorasi","","0","0","0","0","1500000","735000","0","0","0","0","0","0","Laterit dengan kadar Bijih Fe 49%","-2.978","121.554","Van Bemmelen, R.W., 1949, The Geology of Indonesia, vol. II, p.205-217","Penelitian","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0016","Besi Laterit Maniang","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Maniang","Pomalaa","Kolaka","Sulawesi Tenggara","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","0","0","0","0","0","0","0","0","Saprolit","-4.236","121.605","PT Antam, Tbk, Annual Report (31 Desember 2004)","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0017","Besi Laterit Bahubulu","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Bahubulu","Molawe","Konawe Utara","Sulawesi Tenggara","Operasi Produksi","IUP (Izin Usaha Pertambangan)","0","0","38440000","5087640","29250000","4700077","11760000","1764682","22800000","3247882","0","0","Limonit-Saprolit (wmt)","-3.567439","122.325091","PT Antam, Laporan RKAB Tahun 2022","Swasta/BUMN","Bronto Sutopo","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0019","Besi Laterit Tapunopaka","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Tapunopaka","Molawe","Konawe Utara","Sulawesi Tenggara","Operasi Produksi","IUP (Izin Usaha Pertambangan)","0","0","11790000","2494214.8","6180000","1790276.6","38740000","9318600.2","740000","74522","17340000","3120490.8","Limonit-Saprolit (wmt)","-3.471763","122.286954","PT Antam, Laporan RKAB Tahun 2022","Swasta/BUMN","Arnzt P Adryanto","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0021","Besi Laterit Mandiodo","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Mandiodo","Molawe","Konawe Utara","Sulawesi Tenggara","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","25950000","3404470.3","20320000","5097743.7","0","0","7790000","1604636.6","0","0","Limonit-Saprolit (wmt)","-3.564464","122.175773","PT Antam, Laporan RKAB Tahun 2022","Swasta/BUMN","Arnzt P Adryanto","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0021","Besi Laterit Tanjung Buli","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Tanjung Buli","Maba","Halmahera Timur","Maluku Utara","Operasi Produksi","IUP (Izin Usaha Pertambangan)","0","0","23490000","2638870","180000","21377","17540000","2354922","0","0","0","0","Limonit-Saprolit (wmt)","0.832454","128.285749","PT Antam, Annual Report Tahun 2021","Swasta/BUMN"," ","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0023","Besi Laterit Pulau Gee","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Gee","Maba","Halmahera Timur","Maluku Utara","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","0","0","0","0","0","0","3200000","432448","Saprolit","0.83","128.328","PT Antam, Laporan RKAB Tahun 2022","Swasta/BUMN","Bronto Sutopo","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0026","Besi Laterit Pulau Pakal","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Pakal","Kotamaba","Halmahera Timur","Maluku Utara","Operasi Produksi","IUP (Izin Usaha Pertambangan)","0","0","10170000","1234585.8","19110000","3616145.4","22880000","4116116.2","12850000","2112054","13160000","1979398.4","Limonit-Saprolit (wmt)","0.78554","128.340043","PT Antam, Laporan RKAB Tahun 2022","Swasta/BUMN","Arnzt P Adryanto","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0028","Besi Laterit Sangaji","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Sangaji","Kotamaba","Halmahera Timur","Maluku Utara","Eksplorasi","IUP (Izin Usaha Pertambangan)","0","0","284670000","35794836","135770000","17199656","158950000","21391076","0","0","0","0","Limonit-Saprolit (wmt)","0.757097","128.169559","PT Antam, Annual Report Tahun 2021","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0034","Besi Laterit P1","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","P1","Kotamaba","Halmahera Timur","Maluku Utara","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","5440000","819560","0","0","0","0","0","0","Limonit-Saprolit (wmt)","0.774","128.097","PT Antam, Annual Report 2012 (Status Sumber Daya 31 Desember 2012)","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0036","Besi Laterit P8","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","P8","Maba","Halmahera Timur","Maluku Utara","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","2700000","189000","0","0","0","0","0","0","Limonit-Saprolit (wmt)","0.845","128.242","PT Antam, Annual Report 2012 (Status Sumber Daya 31 Desember 2012)","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0038","Besi Laterit Pulau Gebe","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Gebe","Pulau Gede","Halmahera Tengah","Maluku Utara","Operasi Produksi","IUP (Izin Usaha Pertambangan)","0","0","0","0","0","0","0","0","0","0","450000","18900","Saprolit Laterit Nikel","-0.068","129.392","PT Antam, Annual Report 2012 (Status Sumber Daya 31 Desember 2012)","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0039","Besi Laterit Malamala Selatan","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Malamala Selatan","Obi Selatan","Halmahera Selatan","Maluku Utara","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","7000000","1310540","4800000","1083810","12000000","2776340","3500000","821800","10500000","2381890","Iron cap, limonit, saprolit","-1.659","127.601","PT Rimba Kurnia Alam, Laporan RKAB Tahun 2022","Swasta/BUMN","Bahctiar Liusman, ST.  MAusiMM; Yanri Budi Karseno","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0040","Besi Laterit Kapias","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Kapias","Waigeo Barat","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","2529000","778046.85","0","0","0","0","Kadar Fe 43,95%","-0.117","130.305","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0041","Besi Laterit Kamboloi","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Kamboloi","Waigeo Selatan","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","6071000","1669707.13","0","0","0","0","Kadar Fe 39,29%","-0.293","130.66","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0042","Besi Laterit Wemisi","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Wemisi","Waigeo Barat","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","1481000","356521.13","0","0","0","0","Kadar Fe 34,39%","-0.216","130.345","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0043","Besi Laterit West Fofak","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","West Fofak","Waigeo Utara","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","2362000","637551.04","0","0","0","0","Kadar Fe 38,56%","-0.047","130.703","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0044","Besi Laterit Sarenbon","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Sarenbon","Waigeo Timur","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","15697000","3735886","0","0","0","0","Kadar Fe 34%","-0.217","131.296","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0045","Besi Laterit Kawe","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Kawe","Waigeo Barat","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","4130000","1071635.88","0","0","0","0","Kadar Fe 37,069%","-0.05","130.117","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0046","Besi Laterit Minjaifuin","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Minjaifuin","Selat Sagawin","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","5406000","1439509.68","0","0","0","0","Kadar Fe 38,04%","-0.333","130.217","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0047","Besi Laterit Batangpele","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Batangpele","Waigeo Barat","Raja Ampat","Papua Barat","Eksplorasi Rinci","","0","0","0","0","0","0","5378000","1384582.234","0","0","0","0","Kadar Fe 36,779%","-0.238","130.317","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0048","Besi Laterit Pulau Gag (Zona Selatan)","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Gag (Zona Selatan)","Selat Sagawin","Raja Ampat","Papua Barat","Studi Kelayakan","IUP (Izin Usaha Pertambangan)","0","0","106480000","23575881.7","0","0","0","0","0","0","0","0","Limonit-Saprolit","-0.491","129.878","PT Gag Nikel, Revisi Laporan Studi Kelayakan Tahun 2019","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0055","Besi Laterit Pulau Gag (Zona Tengah)","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Pulau Gag (Zona Tengah)","Selat Sagawin","Raja Ampat","Papua Barat","Studi Kelayakan","IUP (Izin Usaha Pertambangan)","0","0","206690000","2427220","90800000","1112686","24190000","293048","58930000","786024","10740000","138325","Limonit-Saprolit (wmt)","-0.444954","129.877054","PT Gag Nikel, Annual Report Tahun 2020","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0070","Besi Laterit Tablasufa","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Tablasufa","Depapre","Jayapura","Papua","Eksplorasi Rinci","","0","0","0","0","0","0","25250000","6718782","0","0","0","0","Limonit-Saprolit","-2.412","140.366","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0072","Besi Laterit Tanah Merah","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Tanah Merah","Depapre","Jayapura","Papua","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","0","0","7580000","2097662","0","0","0","0","Limonit-Saprolit","-2.403","140.345","Quarterly Report, July-September 2000, PT Iriana Sentani","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0074","Besi Laterit Kirpon","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Kirpon","Depapre","Jayapura","Papua","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","0","0","2710000","769181","0","0","0","0","Limonit-Saprolit","-2.444","140.368","Quarterly Report, July-September 2000, PT Iriana Sentani","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0076","Besi Laterit Amaybu","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Amaybu","Depapre","Jayapura","Papua","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","0","0","1690000","385021","0","0","0","0","Limonit-Saprolit","-2.43","140.378","Quarterly Report, July-September 2000, PT Iriana Sentani","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0078","Besi Laterit Rhynauwen","Besi Laterit","Fe La","Logam Besi dan Paduan Besi","Rhynauwen","Sentani Timur","Jayapura","Papua","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","0","0","3503000","787124.1","0","0","0","0","CoG 0,8% Ni","-2.583","140.606","PT Sentani Maju Minerals","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0079","Besi Primer Kwala Boe, Cot Pluy","Besi Primer","Fe","Logam Besi dan Paduan Besi","Kwala Boe, Cot Pluy","Seulimun","Aceh Besar","Aceh","Survei Tinjau","","350000","191100","0","0","0","0","0","0","0","0","0","0","Dengan kadar Fe 54,6%","5.391","95.614","Van Bemmelen, 1949, COW eks. Rio Tinto","Penelitian"," ","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0080","Besi Primer Air Manggis, Nagari Air Manggih","Besi Primer","Fe","Logam Besi dan Paduan Besi","Air Manggis, Nagari Air Manggih","Lubuksikaping","Pasaman","Sumatera Barat","Survei Tinjau","","3204114","0","0","0","0","0","0","0","0","0","0","0","Ditemukan 2 tubuh bijih Besi dengan sumberdaya Hipotetik Tubuh Bijih Besi I 606, 424 ton; Tubuh Bijih Besi II 2.337.400 ton, dan Besi Deluvial 260.320 ton","0.186","100.163","Laporan Inventarisasi & Evaluasi Mineral Logam di Kabupaten Pasaman dan Kabupaten Pasaman Barat","Pemerintah"," ","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0081","Besi Primer Gunung Batu Besi","Besi Primer","Fe","Logam Besi dan Paduan Besi","Gunung Batu Besi","Rambatan","Tanah Datar","Sumatera Barat","Eksplorasi Rinci","","0","0","0","0","0","0","305495","181158.535","0","0","0","0","Berupa Endapan Skarn dari magnit, hemat, dengan kadar Fe 59,30%","-0.513","100.528","Rainir Dhadar dan H. Saeki, 1965, Laporan penyelidikan Endapan Besi di Sumatra Barat","Penelitian"," ","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0082","Besi Primer Blok Bukit Batang Bocor","Besi Primer","Fe","Logam Besi dan Paduan Besi","Blok Bukit Batang Bocor","Sungai Beremas","Pasaman Barat","Sumatera Barat","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","0","0","2432000","0","0","0","0","0","0","0","-","0.302","99.347","PT Tunas Aneka Tambang","Swasta/BUMN"," ","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0083","Besi Primer Jambak - Binjai","Besi Primer","Fe","Logam Besi dan Paduan Besi","Jambak - Binjai","Bonjol","Pasaman","Sumatera Barat","Survei Tinjau","","0","0","0","0","2432000","0","0","0","0","0","0","0","Ditemukan 3 Blok Bijih Besi dengan sumberdaya Hipotetik sbb: Blok Paraman  8.863.680 ton ; Blok Talao  12.954.960 ton; Blok Barameh  567.840 ton","-0.058","100.131","Laporan Inventarisasi & Evaluasi Mineral Logam di Kabupaten Pasaman dan Kabupaten Pasaman Barat","Pemerintah","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0084","Besi Primer Sungai Lasi","Besi Primer","Fe","Logam Besi dan Paduan Besi","Sungai Lasi","Sijunjung","Sijunjung","Sumatera Barat","Eksplorasi Rinci","","0","0","0","0","0","0","147840","82849.536","0","0","0","0","Magnetit, siderit (dalam retas gabro) Fe 56,04%","-0.649","101.009","Rainir Dhadar dan H. Saeki, 1965, Laporan penyelidikan Endapan Besi di Sumatra Barat","Pemerintah","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0085","Besi Primer Air Abu","Besi Primer","Fe","Logam Besi dan Paduan Besi","Air Abu","Payung Sekaki","Solok","Sumatera Barat","Eksplorasi Rinci","IUP (Izin Usaha Pertambangan)","0","0","18854640","0","9485604","5622117.491","0","0","0","0","0","0","Magnetit dan hematit berasosiasi dengan Cu dengan kadar Fe 59,27%","-0.961","100.907","PT Arosuka Mandiri, 2013","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0086","Besi Primer Bukit Lolo","Besi Primer","Fe","Logam Besi dan Paduan Besi","Bukit Lolo","Pulau Punjung","Dharmasraya","Sumatera Barat","Eksplorasi","","0","0","0","0","75000","43942.5","0","0","0","0","0","0","Magnetit dan hematit berasosiasi dengan Cu dengan kadar Fe 58,59%","-0.946","101.681","-","-","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0087","Besi Primer Pulau Singkep","Besi Primer","Fe","Logam Besi dan Paduan Besi","Pulau Singkep","Singkep","Lingga","Kepulauan Riau","Prospeksi","","0","0","50000","30250","0","0","0","0","0","0","0","0","Berupa magnetit dan hematit dengan kadar Fe=58 - 63%","-0.557","104.36","Padmanagara, S. & Johnson, R.F., Geologic Investigation on the Singkep Island and Ajacent Islands","Penelitian","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0088","Besi Primer Nalo Gedang","Besi Primer","Fe","Logam Besi dan Paduan Besi","Nalo Gedang","Bangko","Merangin","Jambi","Operasi Produksi","IUP (Izin Usaha Pertambangan)","0","0","2347363","1455365.06","506597","314090.14","1317152","816634.24","566559","351266.58","0","0","Besi deluvial Fe rata-rata 62 %","-2.019","102.073","PT Putra Sarko Mining, Laporan Studi Kelayakan Tahun 2018 (Tabulasi Dinas ESDM Provinsi)","Swasta/BUMN","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    },
+    {
+        "peers": ["peer0.geologi.esdm.go.id",
+            "peer0.minerba.esdm.go.id"
+        ],
+        "args": ["0089","Besi Primer Sungai Catuapi, Berkun","Besi Primer","Fe","Logam Besi dan Paduan Besi","Sungai Catuapi, Berkun","Limun","Sarolangun","Jambi","Survei Tinjau","","1969","767","0","0","0","0","0","0","0","0","0","0","Kontak metasomatik, Fe rata-rata 39 %","-2.675","102.551","Laporan  Eksplorasi Logam Besi di Kab. Sarolangun dan Merangin","Pemerintah","","2023","","","","","","","","",""],
+        "valid": "1",
+        "confidential": "1"
+    }
+]
