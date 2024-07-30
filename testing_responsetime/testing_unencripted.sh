@@ -1,13 +1,13 @@
 # Path to data_args.txt
 DATA_ARGS_FILE="./data_args5000.txt"
-LOG_FILE="log5000-non_enc_v3.txt"
+LOG_FILE="log5000-non_enc6.txt"
 
 # Endpoint and other fixed parameters
 URL="http://localhost:4000/channels/nsdm/chaincodes/nsdm_cc/addAsset"
 PEERS="peer0.geologi.esdm.go.id"
 VALID="0"
 CONFIDENTIAL="0"
-BEARER_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTk2ODM5MjAsInVzZXJuYW1lIjoiYnUxIiwib3JnTmFtZSI6ImJhZGFudXNhaGExIiwidGlwZV91c3IiOiJkYXRhX293bmVyIiwiaWF0IjoxNzE5NjQ3OTIwfQ.HDViD7maWoETD1wXgIZmPON5tOjtBhxdUD8XxagElmI"
+BEARER_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjIzMzg4MTgsInVzZXJuYW1lIjoiYnUzIiwib3JnTmFtZSI6ImJhZGFudXNhaGExIiwidGlwZV91c3IiOiJkYXRhX293bmVyIiwiaWF0IjoxNzIyMzAyODE4fQ.kufAHb8l8HmJ5i5kX267zsFLcZb2quTdP7GFj_oI9E8"
 
 # Read data_args.txt into an array
 mapfile -t args_array < "$DATA_ARGS_FILE"

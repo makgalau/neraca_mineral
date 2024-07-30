@@ -60,7 +60,7 @@ const getCaUrl = async (org, ccp) => {
         return null
 
     console.log('===========getCaUrl===============');
-    console.log(caURL);
+    // console.log(caURL);
     return caURL
 
 }
@@ -161,7 +161,7 @@ const getRegisteredUser = async (username, userOrg, email, passwd,tipe_usr, isJs
     console.log(`Wallet path: ${walletPath}`);
 
     const userIdentity = await wallet.get(username);
-    console.log('error disini 1');
+    // console.log('error disini 1');
     if (userIdentity) {
         console.log(`An identity for the user ${username} already exists in the wallet`);
 
@@ -183,7 +183,7 @@ const getRegisteredUser = async (username, userOrg, email, passwd,tipe_usr, isJs
         adminIdentity = await wallet.get('admin');
         console.log("Admin Enrolled Successfully")
     }
-    console.log('error disini 5');
+    // console.log('error disini 5');
     // console.log(adminIdentity);
     // build a user object for authenticating with the CA
     const provider = wallet.getProviderRegistry().getProvider(adminIdentity.type);

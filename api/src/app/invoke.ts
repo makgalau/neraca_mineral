@@ -26,7 +26,7 @@ const invokeTransaction = async (channelName, chaincodeName, fcn, args, username
             console.log(`An identity for the user ${username} does not exist in the wallet, so registering user`);
             await helper.getRegisteredUser(username, org_name, true)
             myidentity = await wallet.get(username);
-            console.log('Run the registerUser.js application before retrying');
+            // console.log('Run the registerUser.js application before retrying');
             return;
         }
 
@@ -54,14 +54,14 @@ const invokeTransaction = async (channelName, chaincodeName, fcn, args, username
                 args[24].toString(),args[25].toString(),args[26].toString(),args[27].toString(),args[28].toString(),args[29].toString(),args[30].toString(),args[31].toString(),args[32].toString(),args[33].toString(),args[34].toString(),args[35].toString(),args[36].toString(),
                 args[37],args[38]);    
             message = `Successfully added asset with IDLogam ${args[0]}`;
-            console.log(result);
+            // console.log(result);
         } else if  (fcn === "UpdateAsset") {    
             result = await contract.submitTransaction(fcn, args[0].toString(), args[1].toString(), args[2].toString(), args[3].toString(), args[4].toString(),args[5].toString(),args[6].toString(),args[7].toString(),args[8].toString(),args[9].toString(),args[10].toString(),
                 args[11].toString(),args[12].toString(),args[13].toString(),args[14].toString(),args[15].toString(),args[16].toString(),args[17].toString(),args[18].toString(),args[19].toString(),args[20].toString(),args[21].toString(),args[22].toString(),args[23].toString(),
                 args[24].toString(),args[25].toString(),args[26].toString(),args[27].toString(),args[28].toString(),args[29].toString(),args[30].toString(),args[31].toString(),args[32].toString(),args[33].toString(),args[34].toString(),args[35].toString(),args[36].toString(),
                 args[37],args[38],args[39]);    
             message = `Successfully updated asset with IDLogam ${args[0]}`;
-            console.log(result);
+            // console.log(result);
 
         } else if (fcn == "DeleteAsset"){
             result = await contract.submitTransaction(fcn, args)
@@ -76,7 +76,7 @@ const invokeTransaction = async (channelName, chaincodeName, fcn, args, username
             message: message,
             result
         }
-        console.log(response);
+        // console.log(response);
         return response;
 
 

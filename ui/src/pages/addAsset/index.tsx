@@ -233,7 +233,7 @@ export default function AddAsset() {
               onChange={handleChange}
               >
                 <option value="" disabled hidden>-- Pilih Kelompok Logam --</option>
-                <option value="Logam Besi dan Paduan Besi">Logam Besi dan Paduan BesiLogam Besi dan Paduan Besi</option>
+                <option value="Logam Besi dan Paduan Besi">Logam Besi dan Paduan Besi</option>
                 <option value="Logam Dasar">Logam Dasar</option>
                 <option value="Logam Mulia">Logam Mulia</option>
                 <option value="Logam Ringan dan Langka">Logam Ringan dan Langka</option>
@@ -384,7 +384,7 @@ export default function AddAsset() {
             <option value="2024">2024</option>
             <option value="2023">2023</option>
             <option value="2022">2022</option>
-            <option value="2021">2023</option>
+            <option value="2021">2021</option>
             <option value="2020">2020</option>
             </select>
         </label>

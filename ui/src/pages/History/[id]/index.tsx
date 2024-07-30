@@ -93,11 +93,13 @@ export default function AssetHistory() {
         if (data.error) {
           setError(data.error);
         } else if (data.result) {
+          console.log(data.result);
           const parsedData = data.result.map((entry: string) => {
             const [transactionId, timestamp, valueStr] = entry.split('; ');
             console.log(transactionId);
             console.log(timestamp);
             console.log(valueStr);
+            console.log("tes");
             let value = valueStr.substring(7,valueStr.length-2);
             // let value_temp = JSON.parse(valueStr.substring(7,valueStr.length-2));
             value = JSON.parse(value);

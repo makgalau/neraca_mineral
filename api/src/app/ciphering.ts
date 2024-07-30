@@ -85,11 +85,11 @@ const generateABEKey2Enc = (role: string, organization:string, id:string) => {
 }  
 
 const generateABEKey2Dec = (encKey:string, id:string) => {
-        console.log(encKey, " - ",id);
+        // console.log(encKey, " - ",id);
         const temp = SHA256(id).toString().slice(0,8);
-        console.log("hasil hash username :",temp);
+        // console.log("hasil hash username :",temp);
         const result = genAddHexKeyABE(encKey, temp).padStart(24,'0');
-        console.log("key yang digenerate: ",result);
+        // console.log("key yang digenerate: ",result);
         return result;
 
 }  
@@ -119,7 +119,7 @@ const generateIBEKey = (identity: string): string =>{
     const hash = crypto.createHash('sha256');
     hash.update(identity);
     const hashedEmail = hash.digest('hex');
-    console.log(hashedEmail);
+    // console.log(hashedEmail);
 
     // Mengambil 24 karakter pertama dari hash sebagai kunci
     const key = hashedEmail.substring(0,24);
@@ -130,7 +130,7 @@ const generateIBEKey = (identity: string): string =>{
 const encryptFile = async (buffer, key) => {
     try {
         const keyBuffer = Buffer.from(key, 'hex');
-        console.log(keyBuffer);
+        // console.log(keyBuffer);
         const iv = crypto.randomBytes(16);
         const cipher = crypto.createCipheriv(algorithm,keyBuffer,iv);
         let encrypted = cipher.update(buffer);
@@ -182,7 +182,7 @@ const decryptText = async (encryptedText, key) => {
 
 const decryptFile = async (fileBuffer,decryptkey) => {
     try {
-        console.log(fileBuffer);
+        // console.log(fileBuffer);
         const key = Buffer.from(decryptkey, 'hex'); // assuming key_enc is hex encoded
         const iv = fileBuffer.subarray(0, 16); // assuming the first 16 bytes are the IV
         const encryptedData = fileBuffer.subarray(16); // the rest is the encrypted data
@@ -236,7 +236,7 @@ const initializedEncryption = async (id_user:string) => {
     // console.log(randNum);
     const gNum = process.env.G_NUM || "FFFFFFFF";
 
-    console.log('tes 3');
+    // console.log('tes 3');
     if (verKey==null){
         const response_payload = {
             result: null,

@@ -1,14 +1,14 @@
 # Path to data_args.txt
-DATA_ARGS_FILE="./data_args5000.txt"
+DATA_ARGS_FILE="./data_args1000_2.txt"
 FILE_TO_UPLOAD="./RKAB_2020.pdf"
-LOG_FILE="log5000-no_enc.txt"
+LOG_FILE="log1000-no_enc2.txt"
 
 # Endpoint and other fixed parameters
 URL="http://localhost:4000/channels/nsdm/chaincodes/nsdm_cc/addAsset"
 PEERS="peer0.geologi.esdm.go.id"
 VALID="0"
-CONFIDENTIAL="0"
-BEARER_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTk2NDIxNjgsInVzZXJuYW1lIjoiYnUxIiwib3JnTmFtZSI6ImJhZGFudXNhaGExIiwidGlwZV91c3IiOiJkYXRhX293bmVyIiwiaWF0IjoxNzE5NjA2MTY4fQ.2Ky6ohMnDFoeT9PRArSg-xXiKPCPP1xk8daLS_GJM3Y"
+CONFIDENTIAL="1"
+BEARER_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjIwNTkyMjQsInVzZXJuYW1lIjoiYnUxIiwib3JnTmFtZSI6ImJhZGFudXNhaGExIiwidGlwZV91c3IiOiJkYXRhX293bmVyIiwiaWF0IjoxNzIyMDIzMjI0fQ.mjq36Pc7XYWtlB6EjEFBAkC6-aFd9naI7Cd1s7LJMXQ"
 
 # Read data_args.txt into an array
 mapfile -t args_array < "$DATA_ARGS_FILE"

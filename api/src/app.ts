@@ -301,15 +301,15 @@ app.put('/updateAsset/:id', upload.single('file'), async function (req, res) {
      
             if((args[10])&&(args[10]!='')){        //klo jenis ijin ada isinya, maka dienkrip
                 args[10] = await cipher.encryptText(args[10],cipheringKey);
-                console.log('args[10]', args[10]);
+                // console.log('args[10]', args[10]);
             }
             if((args[26])&&(args[26]!='')){        //klo nama data acuan ada isinya, maka dienkrip
                 args[26] = await cipher.encryptText(args[26],cipheringKey);
-                console.log('args[26]', args[26]);
+                // console.log('args[26]', args[26]);
             }
             if((args[28])&&(args[28]!='')){        //klo competent person ada isinya, maka dienkrip
                 args[28] = await cipher.encryptText(args[28],cipheringKey);
-                console.log('args[28]', args[28]);
+                // console.log('args[28]', args[28]);
             }
 
             if(file){        //klo file data acuan ada isinya, maka diupdate
@@ -335,7 +335,7 @@ app.put('/updateAsset/:id', upload.single('file'), async function (req, res) {
                     });
 
                     const ipfsResult = await ipfsResponse.json();
-                    console.log(ipfsResult);
+                    // console.log(ipfsResult);
                     args[30] = ipfsResult.Hash; // Update to use correct field
                     args[36] = file.originalname;
                     if (pinCID2remove) {
@@ -346,7 +346,7 @@ app.put('/updateAsset/:id', upload.single('file'), async function (req, res) {
                             method: 'POST',
                             body: arg,
                         });
-                        console.log(removePinResponse);
+                        // console.log(removePinResponse);
                     }
                 } catch (error:any) {
                     console.error('Error during IPFS upload', error);
@@ -371,7 +371,7 @@ app.put('/updateAsset/:id', upload.single('file'), async function (req, res) {
                     });
 
                     const ipfsResult = await ipfsResponse.json();
-                    console.log(ipfsResult);
+                    // console.log(ipfsResult);
                     args[30] = ipfsResult.Hash; // Update to use correct field
                     args[36] = file.originalname;
 
@@ -384,7 +384,7 @@ app.put('/updateAsset/:id', upload.single('file'), async function (req, res) {
                         //     body: arg,
                         // });
                         const removePinResponse = await ipfs.removePINCID(pinCID2remove);
-                        console.log(removePinResponse);
+                        // console.log(removePinResponse);
                     }
                 } catch (error:any) {
                     console.error('Error during IPFS upload', error);
@@ -395,10 +395,10 @@ app.put('/updateAsset/:id', upload.single('file'), async function (req, res) {
             }
         }
 
-        console.log(args);
+        // console.log(args);
         const result = await invoke.invokeTransaction(channelName, chaincodeName, fcn, args, req.username, req.orgname);
         console.log(`message result is : ${result.message}`);
-        console.log(result);
+        // console.log(result);
         res.json({
             message: result.message,
             result: result.result,
@@ -517,7 +517,7 @@ app.post('/delete', upload.any(), async function (req, res) {
 
         let response_payload;
         let myresult = await query.queryAll(channelName, chaincodeName,'', fcn, req.username, req.orgname);
-        
+        // console.log(myresult);
         response_payload = {
             result: myresult,
             error: null,
@@ -583,7 +583,7 @@ app.get('/readAsset', upload.any(), async function (req, res) {
 
 
         let myresult = await query.query(channelName, chaincodeName,args, fcn, username, orgname);
-        console.log(myresult);
+        // console.log(myresult);
         //cek tipe user yang melakukan query, berhak atau tidak thd data confidential
         const user = await mongo.getUser(req.username);
         const keyuser = await mongo.getKey(username);
@@ -594,14 +594,14 @@ app.get('/readAsset', upload.any(), async function (req, res) {
                     
                     const tempdecryptKey = cipher.generateABEKey2Dec(keyuser,username);
                     decryptKey =  cipher.multiplyHexStrings(tempdecryptKey,myresult.sk_bgn).padStart(64,'0');
-                    console.log('decdrypt key 1',decryptKey);
+                    // console.log('decdrypt key 1',decryptKey);
                 }else {
                     decryptKey = cipher.multiplyHexStrings(user.key,myresult.sk_agn).padStart(64,'0');
-                                console.log('decdrypt key 2',decryptKey);
+                                // console.log('decdrypt key 2',decryptKey);
                 }
                 let temp;
                 temp = await cipher.decryptText(myresult.DataAcuan,decryptKey);
-                console.log(temp);
+                // console.log(temp);
                 myresult.DataAcuan = temp;
                 myresult.CompetentPerson = await cipher.decryptText(myresult.CompetentPerson, decryptKey);
                 myresult.JenisIjin = await cipher.decryptText(myresult.JenisIjin, decryptKey);
@@ -653,7 +653,7 @@ app.get('/getAssetHistory', upload.any(), async function (req, res) {
         console.log(req.username);
         console.log(req.orgname);
         console.log(req.tipe_usr);
-        console.log(args);
+        // console.log(args);
         if (!chaincodeName) {
             res.json(getErrorMessage('\'chaincodeName\''));
             return;
@@ -682,7 +682,7 @@ app.get('/getAssetHistory', upload.any(), async function (req, res) {
         logger.debug('fcn : ' + fcn);
 
         let myresult2 = await query.query(channelName, chaincodeName,args, "ReadAsset", req.username, req.orgname);
-        console.log(myresult2);
+        // console.log(myresult2);
         //hanya pemilik data atau verifikator yg bisa ngeliat history assets
         if ((req.username == myresult2.username) || (req.tipe_usr == "verifikator")) {
             let myresult = await query.getAssetHistory(channelName, chaincodeName,args, fcn, req.username, req.orgname);
@@ -724,7 +724,7 @@ app.post('/downloadfile', async (req, res) => {
     try {
         logger.debug('==================== Download IPFS ==================');
         const { cid, status_enc, sk_agn, sk_bgn } = req.body;
-        console.log(cid);
+        // console.log(cid);
 
         if (req.tipe_usr === 'public') {
             res.status(403).json({ message: 'User tidak berhak akses' });
@@ -739,10 +739,10 @@ app.post('/downloadfile', async (req, res) => {
             if (req.tipe_usr === 'verifikator' || req.tipe_usr === 'thirdparty') {
                 decryptkey = cipher.generateABEKey2Dec(key,req.username);
                 decryptkey = cipher.multiplyHexStrings(sk_bgn, decryptkey).padStart(64, '0');
-                console.log('decrypt key verifikator & thirdparty: ',decryptkey);
+                // console.log('decrypt key verifikator & thirdparty: ',decryptkey);
             } else if (req.tipe_usr === 'data_owner') {
                 decryptkey = cipher.multiplyHexStrings(sk_agn, key).padStart(64, '0');
-                console.log('decryptkey owner: ',decryptkey);
+                // console.log('decryptkey owner: ',decryptkey);
             } else {
                 res.status(403).json({ message: 'User tidak berhak akses' });
                 return;
@@ -791,9 +791,9 @@ app.post('/downloadfile', async (req, res) => {
 app.post('/channels/:channelName/chaincodes/:chaincodeName/addAsset', upload.single('file'), async function (req, res) { 
     try {
         logger.debug('==================== Add Asset on Chaincode ==================');
-        console.log(req.body);
-        console.log("args = "+req.body.args);
-        console.log(req.params);
+        // console.log(req.body);
+        // console.log("args = "+req.body.args);
+        // console.log(req.params);
         const { peers, args: argsString, valid: validString, confidential: confidentialString } = req.body;
         const { channelName, chaincodeName } = req.params;
         const args = JSON.parse(argsString);
@@ -827,7 +827,7 @@ app.post('/channels/:channelName/chaincodes/:chaincodeName/addAsset', upload.sin
         args[33] = key.sk_bgn;      // sk_bgn
         args[34] = confidential;    // Confidential status
         args[35] = valid;           // Valid status
-        console.log(key);
+        // console.log(key);
 
         if (confidential == 1) {
             if (!key.cipheringKey) {
@@ -840,7 +840,7 @@ app.post('/channels/:channelName/chaincodes/:chaincodeName/addAsset', upload.sin
             for (const field of fieldsToEncrypt) {
                 if (args[field]) {
                     args[field] = await cipher.encryptText(args[field], key.cipheringKey);
-                    console.log(`args[${field}]: ${args[field]}`);
+                    // console.log(`args[${field}]: ${args[field]}`);
                 }
             }
 
@@ -852,7 +852,7 @@ app.post('/channels/:channelName/chaincodes/:chaincodeName/addAsset', upload.sin
             } else {
                 try {
                     const datafile = file.buffer;
-                    console.log(typeof datafile);
+                    // console.log(typeof datafile);
                     args[36] = file.originalname;
                     const encDatafile = await cipher.encryptFile(datafile, key.cipheringKey);
 
@@ -871,7 +871,7 @@ app.post('/channels/:channelName/chaincodes/:chaincodeName/addAsset', upload.sin
                     });
 
                     const ipfsResult = await ipfsResponse.json();
-                    console.log(ipfsResult);
+                    // console.log(ipfsResult);
                     args[30] = ipfsResult.Hash; // Update to use correct field
                 } catch (error:any) {
                     console.error('Error during IPFS upload', error);
@@ -896,7 +896,7 @@ app.post('/channels/:channelName/chaincodes/:chaincodeName/addAsset', upload.sin
                     });
 
                     const ipfsResult = await ipfsResponse.json();
-                    console.log(ipfsResult);
+                    // console.log(ipfsResult);
                     args[30] = ipfsResult.Hash; // Update to use correct field
                     args[36] = file.originalname;
                 } catch (error:any) {
