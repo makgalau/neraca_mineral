@@ -130,7 +130,7 @@ const getKey = async(id:string) => {
         const user = await User.findOne({ $or: [{ 'username' : id }, { 'email' : id }] });
         
         if (user!=null) {
-            console.log('user key =',user.key.toString());
+            // console.log('user key =',user.key.toString());
             return user.key.toString();
         } else {
             return null;

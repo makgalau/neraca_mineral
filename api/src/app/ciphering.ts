@@ -37,13 +37,59 @@ const divideHexStrings = (hexString1:string, hexString2:string) => {
     return hexResult;
 }
 
+const mapAttributes = (role: string) => {
+    var attributeMap;
+    if (role == "verifikator" || role == "thirdparty"){
+        attributeMap = {
+            isVerifikator : true,
+            isThirdparty : true,
+            isDataOwner : false,
+            isPublic : false,
+            accessSecret: true,
+            type_user : "verifikator/thirdparty",
+            country : "Indonesia"
+        };    
+    } else {
+        attributeMap = {
+            isVerifikator : false,
+            isThirdparty : false,
+            isDataOwner : true,
+            isPublic : true,
+            accessSecret: false,
+            type_user : "data_owner",
+            country : "Indonesia"
+        };
+    }
+    return attributeMap;
+}
+
+
+// const generateABEKey = (role: string, organization:string) => {
+//     // Define relevant attributes for access policy
+//     if (role == "verifikator" || role == "thirdparty"){
+//         const attributes = {
+//             type_user : "verifikator/thirdparty",
+//             accessSecret: true
+//           };
+//         const attributesJSON = JSON.stringify(attributes);
+//         const hash = SHA256(attributesJSON);
+//         const hexString = hash.toString(enc.Hex);
+
+//         const keyHex = hexString.slice(0,24);
+//         return keyHex;
+
+//     } else {
+//         let erMssg = "Error, role should use IBE generater";
+//         console.log(`Getting error: ${erMssg}`)
+//         return erMssg
+//     }
+    
+// }  
+
 const generateABEKey = (role: string, organization:string) => {
     // Define relevant attributes for access policy
     if (role == "verifikator" || role == "thirdparty"){
-        const attributes = {
-            type_user : "verifikator/thirdparty",
-            accessSecret: true
-          };
+        const attributes = mapAttributes(role);
         const attributesJSON = JSON.stringify(attributes);
         const hash = SHA256(attributesJSON);
         const hexString = hash.toString(enc.Hex);
