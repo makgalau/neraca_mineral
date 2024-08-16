@@ -339,7 +339,7 @@ app.put('/updateAsset/:id', upload.single('file'), async function (req, res) {
                     args[30] = ipfsResult.Hash; // Update to use correct field
                     args[36] = file.originalname;
                     if (pinCID2remove) {
-                        console.log("remove previous pin on IPFS");
+                        // console.log("remove previous pin on IPFS");
                         const arg = new FormData();
                         arg.append('arg',pinCID2remove);
                         const removePinResponse = await fetch('http://127.0.0.1:5001/api/v0/pin/rm', {

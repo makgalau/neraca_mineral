@@ -30,7 +30,7 @@ const createUser = async (username: string, organisasi: string, email: string, p
             key,
         });
         const savedUser = await newUser.save();
-        console.log('User saved successfully:', savedUser)
+        // console.log('User saved successfully:', savedUser)
         var response = {
             success: true,
             message: username + ': User data already saved to database',
