@@ -3,6 +3,7 @@ api/node-modules/
 api/config/connection-*
 api/dist/
 api/src/*.txt
+
 api/.env
 api/*.txt
 artifacts/channel/crypto-config/
